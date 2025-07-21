@@ -171,4 +171,4 @@
     "tolbutamide": 0,
     "chlorpropamide": 0,
     "nateglinide": 0,
-}
+    }
