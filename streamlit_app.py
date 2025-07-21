@@ -29,3 +29,4 @@ if st.button("Analyser"):
         st.error("⚠️ Risque élevé (≥ 3)")
     else:
         st.success("✅ Risque faible (< 3)")
+print("Médicaments analysés :", meds_list)
