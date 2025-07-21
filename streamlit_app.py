@@ -25,6 +25,7 @@ if st.button("Analyser"):
         st.write(f"- **{med.title()}** : {score}")
 
     st.markdown(f"### 🧮 Total ACB : **{total}**")
+
 if total == 0:
     st.success("✅ Aucun effet anticholinergique détecté!")
 elif total <= 2:
