@@ -26,7 +26,7 @@ if st.button("Analyser"):
 
     st.markdown(f"### 🧮 Total ACB : **{total}**")
     if total == 0:
-    st.success("✅ Aucun effet anticholinergique détecté!")
+st.success("✅ Aucun effet anticholinergique détecté!")
 elif total <= 2:
     st.info("🟡 Risque faible (1–2) — surveiller si d'autres facteurs de fragilité")
 elif total <= 5:
